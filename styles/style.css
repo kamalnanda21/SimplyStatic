@@ -1,0 +1,227 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Home Page */
+
+.home-header {
+    background-color: #050505;
+    color: white;
+    padding: 10px;
+}
+  
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-main {
+  background-color: #abb8c3;
+  color: black;
+  text-align: center;
+  padding: 150px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+
+/* Content Page */
+.content-section {
+  background-color: #abb8c3;
+  color: black;
+  padding: 50px;
+}
+
+/* Our Creators Page */
+.creators-main {
+  background-color: #f5f5f5;
+  color: black;
+  padding: 50px;
+}
+
+.creators-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.creators-section li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+  
+.creators-section li::before {
+    content: "\2022"; /* Bullet point character */
+    color: black; /* Change the color as per your preference */
+    font-size: 1.6em;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+
+/* Why Us Page */
+.why-us-main {
+  background-color: #abb8c3;
+  color: black;
+  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.why-us-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.why-us-section li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+  
+.why-us-section li::before {
+    content: "\2022"; /* Bullet point character */
+    color: black; /* Change the color as per your preference */
+    font-size: 1.6em;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+
+/* Topic Highlights Page */
+.highlights-main {
+  background-color: #f5f5f5;
+  color: black;
+  padding: 50px;
+  padding-top: 10px;
+}
+  
+.highlights-section h2 {
+    color: black;
+}
+  
+.highlights-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.highlights-section li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+  
+.highlights-section li::before {
+    content: "\2022"; /* Bullet point character */
+    color: black; /* Change the color as per your preference */
+    font-size: 1.6em;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+  
+
+/* Sponsorship Page */
+.sponsorship-main {
+  background-color: #abb8c3;
+  color: black;
+  padding: 50px;
+  padding-top: 10px;
+}
+
+.sponsorship-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.sponsorship-section li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+  
+.sponsorship-section li::before {
+    content: "\2022"; /* Bullet point character */
+    color: black; /* Change the color as per your preference */
+    font-size: 1.6em;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+
+
+
+/* General Styling */
+.logo img {
+  max-width: 100%;
+  height: 150px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  /* justify-content: right; */
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  margin-top: 10px;
+}
+
+.trusted-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.trusted-list li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu li {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
